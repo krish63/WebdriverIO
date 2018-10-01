@@ -6,7 +6,7 @@ describe('Google\'s Search Functionality', function() {
       .url('https://www.google.com/ncr')
       .setValue('*[name="q"]','BrowserStack\n')
       .pause(5000);
-    
+    consloe.log("hii");
     assert(browser.getTitle().match(/BrowserStack - Google Search/i));
   });
 });
