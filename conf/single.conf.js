@@ -7,9 +7,11 @@ specs: [
 ],
 exclude: [],
 capabilities: [{
-browser: 'chrome',
+'device': 'iPhone 7',
+'os_version': '10.3',
 name: 'single_test',
 build: 'webdriver-browserstack'
+
 }],
 logLevel: 'verbose',
 coloredLogs: true,
